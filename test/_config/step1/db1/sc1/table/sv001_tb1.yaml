@@ -1,4 +1,0 @@
-columns:
-  author_id: NUMBER(38,0)
-  book_id: NUMBER(38,0)
-  create_ts: TIMESTAMP_NTZ(3)

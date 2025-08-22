@@ -1,3 +1,0 @@
-type: AVRO
-format_options:
-  compression: ZSTD

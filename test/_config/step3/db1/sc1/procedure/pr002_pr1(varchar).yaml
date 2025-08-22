@@ -1,9 +1,0 @@
-language: javascript
-
-arguments:
-  a: VARCHAR(100)
-
-returns: VARCHAR(100)
-
-body: |-
-  return a;

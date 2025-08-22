@@ -1,3 +1,0 @@
-type: PARQUET
-format_options:
-  compression: SNAPPY

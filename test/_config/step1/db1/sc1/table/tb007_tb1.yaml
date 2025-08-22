@@ -1,6 +1,0 @@
-columns:
-  id: NUMBER(10,0)
-  name: VARCHAR(255)
-
-is_transient: true
-retention_time: 0

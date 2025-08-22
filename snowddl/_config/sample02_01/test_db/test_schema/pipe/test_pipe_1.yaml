@@ -1,5 +1,0 @@
-copy:
-  table: test_table_1
-  stage: test_internal_stage
-
-auto_ingest: false

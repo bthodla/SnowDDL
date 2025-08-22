@@ -1,4 +1,0 @@
-mode: INGRESS
-type: IPV4
-value_list:
-  - 0.0.0.0/0

@@ -1,8 +1,0 @@
-warehouse: al001_wh2
-schedule: 1 minute
-
-condition: |-
-  SELECT 1
-
-action: |-
-  SELECT 1

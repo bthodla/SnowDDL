@@ -1,5 +1,0 @@
-type: PARQUET
-format_options:
-  compression: SNAPPY
-  binary_as_text: true
-
