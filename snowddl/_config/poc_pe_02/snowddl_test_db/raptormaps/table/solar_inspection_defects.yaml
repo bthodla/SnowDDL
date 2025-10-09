@@ -1,0 +1,71 @@
+columns:
+    id:
+        type: number(38,0)
+        comment: "id"
+
+    inspection_id:
+        type: number(38,0)
+        comment: "inspection_id"
+
+    action_recommendation:
+        type: varchar(16777216)
+        comment: "action_recommendation"
+
+    action:
+        type: variant
+        comment: "action"
+
+    avg_temp:
+        type: float
+        comment: "avg_temp"
+
+    created_tsecs:
+        type: float
+        comment: "created_tsecs"
+
+    custom_locator_text:
+        type: varchar(16777216)
+        comment: "custom_locator_text"
+
+    delta_t:
+        type: float
+        comment: "delta_t"
+
+    farm_object:
+        type: variant
+        comment: "farm_object"
+
+    geom:
+        type: variant
+        comment: "geom"
+
+    group_name:
+        type: varchar(16777216)
+        comment: "group_name"
+
+    max_temp:
+        type: float
+        comment: "max_temp"
+
+    min_temp:
+        type: float
+        comment: "min_temp"
+
+    priority:
+        type: number(38,0)
+        comment: "priority"
+
+    tag:
+        type: variant
+        comment: "tag"
+
+    tag_id:
+        type: number(38,0)
+        comment: "tag_id"
+
+    uuid:
+        type: varchar(16777216)
+        comment: "uuid"
+
+comment: >-
+    This table stores details of defects found during solar inspections, including temperature readings, recommendations, location data, and related metadata.

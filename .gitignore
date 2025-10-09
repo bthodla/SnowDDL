@@ -1,0 +1,16 @@
+.*
+!/.gitignore
+!/.github
+
+__pycache__/
+*.py[cod]
+*.mypy_cache/
+
+dist/
+build/
+venv/
+dryrun/
+*.egg-info/
+*.egg
+
+snowddl.iml

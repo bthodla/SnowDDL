@@ -1,0 +1,28 @@
+columns:
+  ccr_id:
+    type: varchar(16777216)
+    comment: "CCR ID"
+
+  ccr_project_name:
+    type: varchar(16777216)
+    comment: "CCR Project Name"
+
+  pf_plant_name:
+    type: varchar(16777216)
+    comment: "PF Plant Name"
+
+  rm_project_name:
+    type: varchar(16777216)
+    comment: "RM Project Name"
+
+  plant_owner_account:
+    type: varchar(16777216)
+    comment: "Plant Owner Account"
+
+  rm_solar_farm_id:
+    type: number(38,0)
+    comment: "RM Solar Farm ID"
+
+comment: >-
+  This is the base table for CCR to RM project mappings.
+  This table contains the mapping of CCR projects to their corresponding RM projects.

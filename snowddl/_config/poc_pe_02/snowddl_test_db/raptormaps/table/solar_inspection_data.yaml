@@ -1,0 +1,211 @@
+columns:
+  anomaly_examples_visible:
+    type: boolean
+    comment: "anomaly_examples_visible"
+
+  anomaly_locations_visible:
+    type: boolean
+    comment: "anomaly_locations_visible"
+
+  anomaly_map_description:
+    type: varchar(16777216)
+    comment: "anomaly_map_description"
+
+  anomaly_map_visible:
+    type: boolean
+    comment: "anomaly_map_visible"
+
+  class_name:
+    type: varchar(16777216)
+    comment: "class_name"
+
+  cloud_cover:
+    type: varchar(16777216)
+    comment: "cloud_cover"
+
+  contact:
+    type: variant
+    comment: "contact"
+
+  contact_uuid:
+    type: varchar(16777216)
+    comment: "contact_uuid"
+
+  created_tsecs:
+    type: float
+    comment: "created_tsecs"
+
+  creator_id:
+    type: number(38,0)
+    comment: "creator_id"
+
+  data_capture_visible:
+    type: boolean
+    comment: "data_capture_visible"
+
+  defect_action_visible:
+    type: boolean
+    comment: "defect_action_visible"
+
+  delta_t_visible:
+    type: boolean
+    comment: "delta_t_visible"
+
+  files:
+    type: variant
+    comment: "files"
+
+  findings_visible:
+    type: boolean
+    comment: "findings_visible"
+
+  flight_boundary:
+    type: object
+    comment: "flight_boundary"
+
+  inspection_id:
+    type: number(38,0)
+    comment: "inspection_id"
+
+  imaging_system:
+    type: varchar(16777216)
+    comment: "imaging_system"
+
+  inspection_tsecs:
+    type: float
+    comment: "inspection_tsecs"
+
+  inspection_tsecs_end:
+    type: float
+    comment: "inspection_tsecs_end"
+
+  jobs:
+    type: variant
+    comment: "jobs"
+
+  localize_anomalies_visible:
+    type: boolean
+    comment: "localize_anomalies_visible"
+
+  localize_description:
+    type: varchar(16777216)
+    comment: "localize_description"
+
+  name:
+    type: varchar(16777216)
+    comment: "name"
+
+  notation:
+    type: varchar(16777216)
+    comment: "notation"
+
+  order_delivery_date:
+    type: varchar(16777216)
+    comment: "order_delivery_date"
+
+  order_type:
+    type: varchar(16777216)
+    comment: "order_type"
+
+  order_uuid:
+    type: varchar(16777216)
+    comment: "order_uuid"
+
+  org_id:
+    type: number(38,0)
+    comment: "org_id"
+
+  power_inspected:
+    type: float
+    comment: "power_inspected"
+
+  quality_checked:
+    type: boolean
+    comment: "quality_checked"
+
+  rel_humidity:
+    type: float
+    comment: "rel_humidity"
+
+  report_settings:
+    type: variant
+    comment: "report_settings"
+
+  reports:
+    type: variant
+    comment: "reports"
+
+  site_overview_visible:
+    type: boolean
+    comment: "site_overview_visible"
+
+  solar_defects:
+    type: variant
+    comment: "solar_defects"
+
+  solar_farm_id:
+    type: number(38,0)
+    comment: "solar_farm_id"
+
+  solar_farm_uuid:
+    type: varchar(16777216)
+    comment: "solar_farm_uuid"
+
+  status:
+    type: number(38,0)
+    comment: "status"
+
+  summary_text:
+    type: varchar(16777216)
+    comment: "summary_text"
+
+  temperature:
+    type: float
+    comment: "temperature"
+
+  thermal_overlay_visible:
+    type: boolean
+    comment: "thermal_overlay_visible"
+
+  tile_maps:
+    type: variant
+    comment: "tile_maps"
+
+  timezone:
+    type: varchar(16777216)
+    comment: "timezone"
+
+  title:
+    type: varchar(16777216)
+    comment: "title"
+
+  uas_model:
+    type: varchar(16777216)
+    comment: "uas_model"
+
+  updated_tsecs:
+    type: float
+    comment: "updated_tsecs"
+
+  updator_id:
+    type: number(38,0)
+    comment: "updator_id"
+
+  uuid:
+    type: varchar(16777216)
+    comment: "uuid"
+
+  version:
+    type: number(38,0)
+    comment: "version"
+
+  wind_speed:
+    type: float
+    comment: "wind_speed"
+
+  workflow_status:
+    type: float
+    comment: "workflow_status"
+
+comment: >-
+  Table 'solar_inspection_data' stores detailed information about solar inspection events, including metadata, findings, anomalies, site details, and related reporting for solar farms.

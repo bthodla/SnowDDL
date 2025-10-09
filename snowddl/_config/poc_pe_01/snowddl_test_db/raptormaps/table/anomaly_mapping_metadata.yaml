@@ -1,0 +1,16 @@
+columns:
+  priority_bucket:
+    type: number(38,0)
+    comment: "Priority Bucket"
+
+  anomaly_group_description:
+    type: varchar(16777216)
+    comment: "Anomaly Group Description"
+
+  anomaly:
+    type: varchar(16777216)
+    comment: "Anomaly"
+
+comment: >-
+  This is the base table for the details of anomalies.
+  This table contains the mapping of anomalies to their descriptions and priority buckets.

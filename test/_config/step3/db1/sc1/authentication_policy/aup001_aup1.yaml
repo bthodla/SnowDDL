@@ -1,0 +1,5 @@
+authentication_methods: [ALL]
+mfa_authentication_methods: [PASSWORD, SAML]
+mfa_enrollment: OPTIONAL
+client_types: [ALL]
+security_integrations: [ALL]

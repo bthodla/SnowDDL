@@ -1,0 +1,243 @@
+columns:
+  project:
+    type: varchar(16777216)
+    comment: "project"
+
+  perfdata_publish_date:
+    type: timestamp_ntz(9)
+    comment: "perfdata_publish_date"
+
+  data_sub_startdate:
+    type: timestamp_ntz(9)
+    comment: "data_sub_startdate"
+
+  owner:
+    type: varchar(16777216)
+    comment: "owner"
+
+  fund:
+    type: varchar(16777216)
+    comment: "fund"
+
+  reporting_contract:
+    type: varchar(16777216)
+    comment: "reporting_contract"
+
+  pis:
+    type: timestamp_ntz(9)
+    comment: "pis"
+
+  fc:
+    type: timestamp_ntz(9)
+    comment: "fc"
+
+  mwac:
+    type: float
+    comment: "mwac"
+
+  mwdc:
+    type: float
+    comment: "mwdc"
+
+  das:
+    type: varchar(16777216)
+    comment: "das"
+
+  folder:
+    type: varchar(16777216)
+    comment: "folder"
+
+  om_name:
+    type: varchar(16777216)
+    comment: "om_name"
+
+  operations_engineer:
+    type: varchar(16777216)
+    comment: "operations_engineer"
+
+  ppa_tracker_name:
+    type: varchar(16777216)
+    comment: "ppa_tracker_name"
+
+  pf_audit_name:
+    type: varchar(16777216)
+    comment: "pf_audit_name"
+
+  pf_tamb:
+    type: varchar(16777216)
+    comment: "pf_tamb"
+
+  pf_wind:
+    type: varchar(16777216)
+    comment: "pf_wind"
+
+  pf_finallist_name:
+    type: varchar(16777216)
+    comment: "pf_finallist_name"
+
+  pf_finallist_fund:
+    type: varchar(16777216)
+    comment: "pf_finallist_fund"
+
+  pf_id:
+    type: varchar(16777216)
+    comment: "pf_id"
+
+  thera_name:
+    type: varchar(16777216)
+    comment: "thera_name"
+
+  thera_pid:
+    type: varchar(16777216)
+    comment: "thera_pid"
+
+  ccr_id:
+    type: varchar(16777216)
+    comment: "ccr_id"
+
+  utility_account_id:
+    type: varchar(16777216)
+    comment: "utility_account_id"
+
+  ae_id:
+    type: varchar(16777216)
+    comment: "ae_id"
+
+  draker_site_id:
+    type: varchar(16777216)
+    comment: "draker_site_id"
+
+  draker_report_id:
+    type: varchar(16777216)
+    comment: "draker_report_id"
+
+  draker_api_key:
+    type: varchar(16777216)
+    comment: "draker_api_key"
+
+  locus_site_id:
+    type: varchar(16777216)
+    comment: "locus_site_id"
+
+  pordis_site_id:
+    type: varchar(16777216)
+    comment: "pordis_site_id"
+
+  skytron_id:
+    type: varchar(16777216)
+    comment: "skytron_id"
+
+  guarantee_id:
+    type: varchar(16777216)
+    comment: "guarantee_id"
+
+  guarantee_input:
+    type: varchar(16777216)
+    comment: "guarantee_input"
+
+  gps_lat:
+    type: float
+    comment: "gps_lat"
+
+  gps_long:
+    type: float
+    comment: "gps_long"
+
+  state_abbreviation:
+    type: varchar(16777216)
+    comment: "state_abbreviation"
+
+  state:
+    type: varchar(16777216)
+    comment: "state"
+
+  site_address:
+    type: varchar(16777216)
+    comment: "site_address"
+
+  utility:
+    type: varchar(16777216)
+    comment: "utility"
+
+  racking:
+    type: varchar(16777216)
+    comment: "racking"
+
+  oem_racking:
+    type: varchar(16777216)
+    comment: "oem_racking"
+
+  tilt_gcr:
+    type: float
+    comment: "tilt_gcr"
+
+  max_angle:
+    type: float
+    comment: "max_angle"
+
+  timezone:
+    type: varchar(16777216)
+    comment: "timezone"
+
+  inv_type:
+    type: varchar(16777216)
+    comment: "inv_type"
+
+  inv_model_remove_later:
+    type: varchar(16777216)
+    comment: "inv_model_remove_later"
+
+  inv_warranty_end_date:
+    type: timestamp_ntz(9)
+    comment: "inv_warranty_end_date"
+
+  region:
+    type: varchar(16777216)
+    comment: "region"
+
+  epc:
+    type: varchar(16777216)
+    comment: "epc"
+
+  temp_coeff_pmax:
+    type: float
+    comment: "temp_coeff_pmax"
+
+  a_module:
+    type: float
+    comment: "a_module"
+
+  b_module:
+    type: float
+    comment: "b_module"
+
+  delta_tcnd:
+    type: float
+    comment: "delta_tcnd"
+
+  elevation:
+    type: float
+    comment: "elevation"
+
+  retired:
+    type: varchar(16777216)
+    comment: "retired"
+
+  blended_ppa_dollarpermw:
+    type: float
+    comment: "blended_ppa_dollarpermw"
+
+  ld_risk:
+    type: varchar(16777216)
+    comment: "ld_risk"
+
+  data_lock_date:
+    type: timestamp_ntz(9)
+    comment: "data_lock_date"
+
+  perf_guarantee_contract:
+    type: varchar(16777216)
+    comment: "perf_guarantee_contract"
+
+comment: >-
+  The df_keys table stores metadata and key attributes for various projects, including identifiers, dates, ownership, technical specifications, and contract information.

@@ -1,0 +1,11 @@
+columns:
+  solar_farm_id:
+    type: number(38,0)
+    comment: "solar_farm_id"
+
+  rm_name:
+    type: varchar(16777216)
+    comment: "rm_name"
+
+comment: >-
+  This table temp_farm_mapping stores the mapping between solar farm IDs and their corresponding Raptormaps names.

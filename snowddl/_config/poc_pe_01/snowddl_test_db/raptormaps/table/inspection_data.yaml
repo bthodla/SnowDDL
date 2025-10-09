@@ -1,0 +1,71 @@
+columns:
+  title:
+    type: varchar(16777216)
+    comment: "Title"
+
+  solar_farm_id:
+    type: number(38,0)
+    comment: "Solar Farm ID"
+
+  solar_farm_uuid:
+    type: varchar(16777216)
+    comment: "Solar Farm UUID"
+
+  name:
+    type: varchar(16777216)
+    comment: "Name"
+
+  inspection_id:
+    type: number(38,0)
+    comment: "Inspection ID"
+
+  inspection_uuid:
+    type: varchar(16777216)
+    comment: "Inspection UUID"
+
+  anomaly:
+    type: varchar(16777216)
+    comment: "Anomaly"
+
+  anomaly_count:
+    type: number(38,0)
+    comment: "Anomaly Count"
+
+  est_affected_dc_kw:
+    type: float
+    comment: "Estimated Affected DC kW"
+
+  est_affected_dc_percent:
+    type: float
+    comment: "Estimated Affected DC Percent"
+
+  est_annual_impact_kw_h:
+    type: float
+    comment: "Estimated Annual Impact kW-h"
+
+  est_annual_impact_dollars:
+    type: float
+    comment: "Estimated Annual Impact Dollars"
+
+  module_count:
+    type: number(38,0)
+    comment: "Module Count"
+
+  report_link:
+    type: varchar(16777216)
+    comment: "Report Link"
+
+  processed_date:
+    type: timestamp_ntz(9)
+    comment: "Processed Date"
+
+  inspection_date:
+    type: date
+    comment: "Inspection Date"
+
+  delivery_date:
+    type: date
+    comment: "Delivery Date"
+
+comment: >-
+  This is the base table for Inspection Data

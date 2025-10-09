@@ -1,0 +1,71 @@
+columns:
+  title:
+    type: varchar(16777216)
+    comment: "title"
+
+  solar_farm_id:
+    type: number(38,0)
+    comment: "solar_farm_id"
+
+  solar_farm_uuid:
+    type: varchar(16777216)
+    comment: "solar_farm_uuid"
+
+  name:
+    type: varchar(16777216)
+    comment: "name"
+
+  inspection_id:
+    type: number(38,0)
+    comment: "inspection_id"
+
+  inspection_uuid:
+    type: varchar(16777216)
+    comment: "inspection_uuid"
+
+  anomaly:
+    type: varchar(16777216)
+    comment: "anomaly"
+
+  anomaly_count:
+    type: number(38,0)
+    comment: "anomaly_count"
+
+  est_affected_dc_kw:
+    type: float
+    comment: "est_affected_dc_kw"
+
+  est_affected_dc_percent:
+    type: float
+    comment: "est_affected_dc_percent"
+
+  est_annual_impact_kw_h:
+    type: float
+    comment: "est_annual_impact_kw_h"
+
+  est_annual_impact_dollars:
+    type: float
+    comment: "est_annual_impact_dollars"
+
+  module_count:
+    type: number(38,0)
+    comment: "module_count"
+
+  report_link:
+    type: varchar(16777216)
+    comment: "report_link"
+
+  processed_date:
+    type: timestamp_ntz(9)
+    comment: "processed_date"
+
+  inspection_date:
+    type: date
+    comment: "inspection_date"
+
+  delivery_date:
+    type: date
+    comment: "delivery_date"
+
+comment: >-
+  This is the base table for Inspection Findings

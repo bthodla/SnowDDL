@@ -1,0 +1,5 @@
+    # databases.yaml
+    databases:
+      SNOWDDL_TEST_DB: # Name of your target database
+        owner: SNOWDDL_ADMIN # Optional: Specify an owner role for the database
+        comment: "This is my target database managed by SnowDDL."

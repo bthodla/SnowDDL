@@ -1,0 +1,27 @@
+us001_us1:
+  login_name: gill_goe
+  display_name: GGoe
+  first_name: Gill
+  last_name: Goe
+  email: gill@example.com
+  disabled: true
+  session_params:
+    query_tag: test1
+    rows_per_resultset: 100000
+  default_namespace: db1.sc2
+  business_roles:
+    - us001_br2
+  comment: abc
+
+us002_us1:
+  disabled: true
+  type: legacy_service
+  password: YQYAtgqkbS5h
+
+np001_us1:
+  disabled: true
+  network_policy: np001_np2
+
+aup001_us1:
+  disabled: true
+  authentication_policy: db1.sc1.aup001_aup2

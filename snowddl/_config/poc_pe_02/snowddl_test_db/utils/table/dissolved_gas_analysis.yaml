@@ -1,0 +1,171 @@
+columns:
+  customerno:
+    type: number(38,0)
+    comment: "customerno"
+
+  tc:
+    type: number(38,0)
+    comment: "tc"
+
+  equipmentid:
+    type: varchar(16777216)
+    comment: "equipmentid"
+
+  unit_no:
+    type: varchar(16777216)
+    comment: "unit_no"
+
+  sub_name:
+    type: varchar(16777216)
+    comment: "sub_name"
+
+  location:
+    type: varchar(16777216)
+    comment: "location"
+
+  other:
+    type: varchar(16777216)
+    comment: "other"
+
+  mfg:
+    type: varchar(16777216)
+    comment: "mfg"
+
+  equip_type:
+    type: varchar(16777216)
+    comment: "equip_type"
+
+  date_mfg:
+    type: varchar(16777216)
+    comment: "date_mfg"
+
+  trans_class:
+    type: varchar(16777216)
+    comment: "trans_class"
+
+  s_n:
+    type: varchar(16777216)
+    comment: "s_n"
+
+  impedence:
+    type: float
+    comment: "impedence"
+
+  kva:
+    type: number(38,0)
+    comment: "kva"
+
+  phase_cycle:
+    type: varchar(16777216)
+    comment: "phase_cycle"
+
+  pri:
+    type: float
+    comment: "pri"
+
+  pri_vector:
+    type: varchar(16777216)
+    comment: "pri_vector"
+
+  liq_type:
+    type: varchar(16777216)
+    comment: "liq_type"
+
+  sec:
+    type: float
+    comment: "sec"
+
+  sec_vector:
+    type: varchar(16777216)
+    comment: "sec_vector"
+
+  amount_liq:
+    type: varchar(16777216)
+    comment: "amount_liq"
+
+  weight:
+    type: varchar(16777216)
+    comment: "weight"
+
+  oth_access:
+    type: varchar(16777216)
+    comment: "oth_access"
+
+  radiators:
+    type: varchar(16777216)
+    comment: "radiators"
+
+  conservator:
+    type: varchar(16777216)
+    comment: "conservator"
+
+  fans:
+    type: varchar(16777216)
+    comment: "fans"
+
+  ltc_compart:
+    type: varchar(16777216)
+    comment: "ltc_compart"
+
+  h2o_cooled:
+    type: varchar(16777216)
+    comment: "h2o_cooled"
+
+  brushing_loc:
+    type: varchar(16777216)
+    comment: "brushing_loc"
+
+  oil_pumps:
+    type: varchar(16777216)
+    comment: "oil_pumps"
+
+  breather:
+    type: varchar(16777216)
+    comment: "breather"
+
+  top_fpv:
+    type: varchar(16777216)
+    comment: "top_fpv"
+
+  hose_length:
+    type: varchar(16777216)
+    comment: "hose_length"
+
+  bot_fpv:
+    type: varchar(16777216)
+    comment: "bot_fpv"
+
+  service_online:
+    type: varchar(16777216)
+    comment: "service_online"
+
+  insulation:
+    type: varchar(16777216)
+    comment: "insulation"
+
+  power_avail:
+    type: varchar(16777216)
+    comment: "power_avail"
+
+  selector_gallons:
+    type: float
+    comment: "selector_gallons"
+
+  transfer_diverter_gallons:
+    type: float
+    comment: "transfer_diverter_gallons"
+
+  ltc_model_no:
+    type: float
+    comment: "ltc_model_no"
+
+  ltc_for_tc_no:
+    type: float
+    comment: "ltc_for_tc_no"
+
+  silica_gel:
+    type: varchar(16777216)
+    comment: "silica_gel"
+
+comment: >-
+  Table dissolved_gas_analysis stores dissolved gas analysis data for equipment, including customer, location, equipment details, and various technical parameters.

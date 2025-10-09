@@ -1,0 +1,27 @@
+columns:
+    project_name:
+        type: varchar(16777216)
+        comment: "project_name"
+
+    timestamp_local:
+        type: timestamp_ntz(9)
+        comment: "timestamp_local"
+
+    meter_kwh:
+        type: float
+        comment: "meter_kwh"
+
+    grid_losses:
+        type: float
+        comment: "grid_losses"
+
+    inv_losses:
+        type: float
+        comment: "inv_losses"
+
+    snow_losses:
+        type: float
+        comment: "snow_losses"
+
+comment: >-
+    This table stores processed data for AM reporting, including project name, timestamp, and various loss metrics.

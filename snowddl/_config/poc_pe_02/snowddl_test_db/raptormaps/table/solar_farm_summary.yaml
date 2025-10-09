@@ -1,0 +1,75 @@
+columns:
+  address:
+    type: varchar(16777216)
+    comment: "address"
+
+  client_org_id:
+    type: number(38,0)
+    comment: "client_org_id"
+
+  commissioning_tsecs:
+    type: float
+    comment: "commissioning_tsecs"
+
+  created_tsecs:
+    type: float
+    comment: "created_tsecs"
+
+  id:
+    type: number(38,0)
+    comment: "id"
+
+  latitude:
+    type: float
+    comment: "latitude"
+
+  longitude:
+    type: float
+    comment: "longitude"
+
+  module_layout:
+    type: varchar(16777216)
+    comment: "module_layout"
+
+  module_mount:
+    type: varchar(16777216)
+    comment: "module_mount"
+
+  name:
+    type: varchar(16777216)
+    comment: "name"
+
+  site_layout:
+    type: varchar(16777216)
+    comment: "site_layout"
+
+  size:
+    type: float
+    comment: "size"
+
+  status:
+    type: number(38,0)
+    comment: "status"
+
+  updated_tsecs:
+    type: float
+    comment: "updated_tsecs"
+
+  uuid:
+    type: varchar(16777216)
+    comment: "uuid"
+
+  country:
+    type: varchar(16777216)
+    comment: "country"
+
+  state:
+    type: varchar(16777216)
+    comment: "state"
+
+  asset_id:
+    type: varchar(16777216)
+    comment: "asset_id"
+
+comment: >-
+  Table solar_farm_summary stores summary information about solar farms, including location, client, status, and configuration details.

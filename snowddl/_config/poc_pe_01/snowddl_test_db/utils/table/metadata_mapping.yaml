@@ -1,0 +1,11 @@
+columns:
+  map_key:
+    type: varchar(16777216)
+    comment: "map_key"
+
+  map_value:
+    type: varchar(16777216)
+    comment: "map_value"
+
+comment: >-
+  This table stores key-value metadata mappings, with each row representing a mapping between a key and its corresponding value.

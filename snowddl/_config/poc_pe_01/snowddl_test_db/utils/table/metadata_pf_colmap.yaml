@@ -1,0 +1,24 @@
+columns:
+  ccr_id:
+    type: varchar(32767)
+    comment: "ccr_id"
+
+  pf_id:
+    type: varchar(32767)
+    comment: "pf_id"
+
+  project_name:
+    type: varchar(32767)
+    comment: "project_name"
+
+  pf_colname:
+    type: varchar(32767)
+    comment: "pf_colname"
+
+  ccr_colname:
+    type: varchar(32767)
+    comment: "ccr_colname"
+
+comment: >-
+  This table, metadata_pf_colmap, maps project field column names to CCR column names for data integration and reference purposes.
+  

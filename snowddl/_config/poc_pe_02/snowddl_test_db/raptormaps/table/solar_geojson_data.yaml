@@ -1,0 +1,23 @@
+columns:
+  id:
+    type: number(38,0)
+    comment: "id"
+
+  object_type:
+    type: varchar(16777216)
+    comment: "object_type"
+
+  geometry:
+    type: variant
+    comment: "geometry"
+
+  properties:
+    type: variant
+    comment: "properties"
+
+  type:
+    type: varchar(16777216)
+    comment: "type"
+
+comment: >-
+  Table 'solar_geojson_data' stores geoJSON data related to solar assets, including geometry, properties, and object types.

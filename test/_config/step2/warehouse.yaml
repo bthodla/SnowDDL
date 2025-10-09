@@ -1,0 +1,69 @@
+al001_wh2:
+  size: XSMALL
+
+al002_wh1:
+  size: XSMALL
+
+ap001_wh1:
+  size: XSMALL
+
+dt001_wh1:
+  size: XSMALL
+
+dt001_wh2:
+  size: XSMALL
+
+dt002_wh1:
+  size: XSMALL
+
+dt003_wh1:
+  size: XSMALL
+
+dt004_wh1:
+  size: XSMALL
+
+mp001_wh1:
+  size: XSMALL
+
+pm001_wh1:
+  size: XSMALL
+
+pm001_wh2:
+  size: XSMALL
+
+pm002_wh1:
+  size: XSMALL
+
+pm002_wh2:
+  size: XSMALL
+
+pp001_wh1:
+  size: XSMALL
+
+rp001_wh1:
+  size: XSMALL
+
+us001_wh1:
+  size: XSMALL
+
+us001_wh2:
+  size: SMALL
+
+wh001_wh1:
+  size: SMALL
+  type: STANDARD
+  max_cluster_count: 2
+  scaling_policy: ECONOMY
+  auto_suspend: 90
+  comment: cde
+  warehouse_params:
+    statement_timeout_in_seconds: 120
+
+wh002_wh1:
+  size: XSMALL
+  resource_monitor: wh002_rm2
+
+wh003_wh1:
+  size: XSMALL
+  type: SNOWPARK-OPTIMIZED
+  resource_constraint: MEMORY_1X
