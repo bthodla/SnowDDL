@@ -1,0 +1,12 @@
+text: |-
+  SELECT solar_farm_id,
+    name,
+    sum(anomaly_count) AS total_anomalies
+  FROM ${{ env_prefix }}snowddl_test_db.raptormaps.inspection_findings
+  GROUP BY 1, 2
+ 
+target_lag: 1 hour
+warehouse: snowddl_test_wh
+initialize: ON_SCHEDULE
+
+comment: Anomaly summary report grouped by solar farm and name.

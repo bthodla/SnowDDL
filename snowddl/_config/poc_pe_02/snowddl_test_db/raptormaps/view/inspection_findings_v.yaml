@@ -1,0 +1,25 @@
+columns:
+  solar_farm_id: "solar_farm_id"
+  name: "name"
+  inspection_id: "inspection_id"
+  anomaly: "anomaly"
+  anomaly_count: "anomaly_count"
+  est_affected_dc_kw: "est_affected_dc_kw"
+  est_affected_dc_percent: "est_affected_dc_percent"
+  inspection_date:
+
+text: |-
+  SELECT 
+    ifd.solar_farm_id,
+    ifd.name,
+    ifd.inspection_id,
+    ifd.anomaly,
+    ifd.anomaly_count,
+    ifd.est_affected_dc_kw,
+    ifd.est_affected_dc_percent,
+    ifd.inspection_date
+  FROM 
+    raptormaps.inspection_findings AS ifd
+
+comment: >-
+  View to expose inspection findings with relevant details.
